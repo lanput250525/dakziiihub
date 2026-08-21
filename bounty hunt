@@ -15,7 +15,7 @@ local Sea1_IDs = {2753915549}
 if table.find(Sea2_IDs, placeId) then
     print("[Loader] Terdeteksi di SEA 2 (Public/PS)! Memuat script Sea 2...")
     local success, err = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/lanput250525/dakzziii/refs/heads/main/sea2"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lanput250525/dakziiihub/refs/heads/main/sea2obsfte"))()
     end)
     if not success then
         warn("[Loader Error] Gagal memuat script Sea 2! Detail: " .. tostring(err))
